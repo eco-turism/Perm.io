@@ -1,0 +1,118 @@
+ html, body,#viewDiv {
+    padding: 0;
+    margin: 0;
+    height: 98%;
+    width: 100%;
+    position: absolute;
+}
+.action-button {
+    font-size: 18px;
+    background-color: transparent;
+    border: 0px  rgba(188, 240, 188);
+    color:rgb(107, 107, 107);
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    left: 75%;
+}
+
+#coordsWidget {
+    left: 10px;
+    bottom: 30px;
+    background-color: rgba(163, 255, 163, 0.596);
+    color: rgb(0, 0, 0);
+}
+#overviewDiv {
+    position: absolute;
+    left: 10px;
+    bottom: 100px;
+    height: 100px;
+    width: 150px;
+    border: 1px solid rgb(104, 99, 99);
+    z-index: 1;
+
+}
+#distanceButton {
+    background-color: rgba(188, 240, 188);
+    left: 97%;
+    position: absolute;
+}
+#areaButton {
+    background-color: rgb(188, 240, 188);
+    left: 94%;
+    position: absolute;
+}
+#leg{
+    background-color: rgb(188, 240, 188);
+    left: 91%;
+    position: absolute;
+}
+#LayerList1{
+    background-color: rgb(188, 240, 188);
+    position: absolute;
+    left: 88%;
+}
+.show2{
+    visibility: visible !important;
+}
+#head1{
+    position: absolute;
+    left: 30%;
+    color: rgb(88, 88, 88);
+    padding-top: 1px;
+    text-indent: 70px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+#head{
+    background-color: rgb(188, 240, 188);
+    height: 40px;
+}
+#List1{
+    background-color: rgb(188, 240, 188);
+    visibility: hidden;
+    height: 210px;
+    width: 250px;
+    right: -12px;
+    top: -14px;
+    position: absolute;
+}
+.show1 {
+    visibility: visible !important;
+}
+
+#legend {
+    border: 2px;
+
+    background-color: rgb(188, 240, 188);
+    visibility: hidden;
+    position: absolute;
+    height: 405px;
+    width: 250px;
+    top: 252px;
+    right: 3px;
+}
+#search {
+    position:absolute;
+    left:150px;
+}
+#tog{
+    position:absolute;
+    left: 80px;
+    top:55px;
+}
+#dialog {
+    background-color: rgb(188, 240, 188);
+    border: 0.5px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    width: 80%;
+    
+}
+#close {
+    position: relative;
+    left: 90%;
+    top: 10%;
+}
