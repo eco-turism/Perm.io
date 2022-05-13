@@ -1,2 +1,0 @@
-# Artem-Burdin.github.io
-
