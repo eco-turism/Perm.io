@@ -1,0 +1,17 @@
+{
+"type": "FeatureCollection",
+"name": "duck_place",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "Распо": "оз. Ласьвинское" }, "geometry": { "type": "Point", "coordinates": [ 6215661.492881938815117, 7961883.371126449666917 ] } },
+{ "type": "Feature", "properties": { "Распо": "\"Утиное болото\"" }, "geometry": { "type": "Point", "coordinates": [ 6229919.710623569786549, 7969876.621476936154068 ] } },
+{ "type": "Feature", "properties": { "Распо": "р. Мулянка мкрн. Заостровка" }, "geometry": { "type": "Point", "coordinates": [ 6247834.757832086645067, 7967184.586017514578998 ] } },
+{ "type": "Feature", "properties": { "Распо": "\"Андроновские пруды\"" }, "geometry": { "type": "Point", "coordinates": [ 6253365.111072445288301, 7958423.418868577107787 ] } },
+{ "type": "Feature", "properties": { "Распо": "\"Андроновские пруды\"" }, "geometry": { "type": "Point", "coordinates": [ 6252762.936658558435738, 7958619.08932411018759 ] } },
+{ "type": "Feature", "properties": { "Распо": "Парковый, пруд ул. Пожарско" }, "geometry": { "type": "Point", "coordinates": [ 6251372.408195718191564, 7965855.940161972306669 ] } },
+{ "type": "Feature", "properties": { "Распо": "Райский сад, Мотовилихинск" }, "geometry": { "type": "Point", "coordinates": [ 6270102.336698773317039, 7975339.353511438705027 ] } },
+{ "type": "Feature", "properties": { "Распо": "р.Данилиха" }, "geometry": { "type": "Point", "coordinates": [ 6259642.17615688405931, 7966832.94291917886585 ] } },
+{ "type": "Feature", "properties": { "Распо": "р. Ива" }, "geometry": { "type": "Point", "coordinates": [ 6268272.720077099278569, 7970256.501703908666968 ] } },
+{ "type": "Feature", "properties": { "Распо": "р. Гайва" }, "geometry": { "type": "Point", "coordinates": [ 6267621.207464625127614, 7986517.542020741850138 ] } }
+]
+}

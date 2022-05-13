@@ -1,0 +1,23 @@
+{
+"type": "FeatureCollection",
+"name": "kids_place",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "Назва": "Боровики" }, "geometry": { "type": "Point", "coordinates": [ 6243073.300245929509401, 7977753.188764370046556 ] } },
+{ "type": "Feature", "properties": { "Назва": "Детские забавы" }, "geometry": { "type": "Point", "coordinates": [ 6247460.248775881715119, 7975579.356740946881473 ] } },
+{ "type": "Feature", "properties": { "Назва": "Солнечная поляна" }, "geometry": { "type": "Point", "coordinates": [ 6249791.832297327928245, 7965246.657880912534893 ] } },
+{ "type": "Feature", "properties": { "Назва": "Чаша" }, "geometry": { "type": "Point", "coordinates": [ 6250982.121064886450768, 7965670.63447504863143 ] } },
+{ "type": "Feature", "properties": { "Назва": "Золотые пески" }, "geometry": { "type": "Point", "coordinates": [ 6251281.079940519295633, 7965872.638722497038543 ] } },
+{ "type": "Feature", "properties": { "Назва": "Под липками" }, "geometry": { "type": "Point", "coordinates": [ 6269771.913062715902925, 7960042.588032450526953 ] } },
+{ "type": "Feature", "properties": { "Назва": "Большая сосновая" }, "geometry": { "type": "Point", "coordinates": [ 6265607.874522719532251, 7979794.556751992553473 ] } },
+{ "type": "Feature", "properties": { "Назва": "Большая сосновая" }, "geometry": { "type": "Point", "coordinates": [ 6266304.343868130818009, 7979910.090395415201783 ] } },
+{ "type": "Feature", "properties": { "Назва": "Романовское поле" }, "geometry": { "type": "Point", "coordinates": [ 6274636.21677750069648, 7982927.686032554134727 ] } },
+{ "type": "Feature", "properties": { "Назва": "Разнолесье" }, "geometry": { "type": "Point", "coordinates": [ 6275260.114620009437203, 7985274.702360616065562 ] } },
+{ "type": "Feature", "properties": { "Назва": "Ботаническая" }, "geometry": { "type": "Point", "coordinates": [ 6279380.611313205212355, 7984505.221644222736359 ] } },
+{ "type": "Feature", "properties": { "Назва": "Сосновый бор" }, "geometry": { "type": "Point", "coordinates": [ 6231606.993642210029066, 7969838.470749961212277 ] } },
+{ "type": "Feature", "properties": { "Назва": "Terra Oecologia" }, "geometry": { "type": "Point", "coordinates": [ 6254570.594751903787255, 7965640.794760879129171 ] } },
+{ "type": "Feature", "properties": { "Назва": "Terra Oecologia" }, "geometry": { "type": "Point", "coordinates": [ 6254577.825516018085182, 7966075.14744303189218 ] } },
+{ "type": "Feature", "properties": { "Назва": "Поляна друзей" }, "geometry": { "type": "Point", "coordinates": [ 6269787.863045677542686, 7966114.781706267036498 ] } },
+{ "type": "Feature", "properties": { "Назва": "Серебряный Меридиан" }, "geometry": { "type": "Point", "coordinates": [ 6281501.308262776583433, 7999368.238070172257721 ] } }
+]
+}

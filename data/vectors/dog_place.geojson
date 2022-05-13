@@ -1,0 +1,33 @@
+{
+"type": "FeatureCollection",
+"name": "dog_place",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "Адрес": "ул. Калинина, 66" }, "geometry": { "type": "Point", "coordinates": [ 6235957.412543037906289, 7974923.733305684290826 ] } },
+{ "type": "Feature", "properties": { "Адрес": "ул. Хабаровская, 64" }, "geometry": { "type": "Point", "coordinates": [ 6242795.795449014753103, 7977989.89776171091944 ] } },
+{ "type": "Feature", "properties": { "Адрес": "ул. Костычева ост. \"Сочинская\"" }, "geometry": { "type": "Point", "coordinates": [ 6247426.437388466671109, 7975556.78945981618017 ] } },
+{ "type": "Feature", "properties": { "Адрес": "ул. Докучаева, 21" }, "geometry": { "type": "Point", "coordinates": [ 6249205.478479771874845, 7975681.749284403398633 ] } },
+{ "type": "Feature", "properties": { "Адрес": "ул. Подлесная ост. \"ПКиО Балатово\"." }, "geometry": { "type": "Point", "coordinates": [ 6254163.380062019452453, 7965973.484990749508142 ] } },
+{ "type": "Feature", "properties": { "Адрес": "ул. Яблочкова, 38" }, "geometry": { "type": "Point", "coordinates": [ 6260232.364292135462165, 7960758.310738404281437 ] } },
+{ "type": "Feature", "properties": { "Адрес": "ул. Стахановская, 2" }, "geometry": { "type": "Point", "coordinates": [ 6259227.270264797843993, 7964307.24237766303122 ] } },
+{ "type": "Feature", "properties": { "Адрес": "ул. Клары Цеткин, 33" }, "geometry": { "type": "Point", "coordinates": [ 6260211.227959550917149, 7965901.895025617443025 ] } },
+{ "type": "Feature", "properties": { "Адрес": "ул. Клименко, 26" }, "geometry": { "type": "Point", "coordinates": [ 6263443.087540823966265, 7970176.281121204607189 ] } },
+{ "type": "Feature", "properties": { "Адрес": "ул. Братская, 177" }, "geometry": { "type": "Point", "coordinates": [ 6269442.92101133055985, 7961108.206607528962195 ] } },
+{ "type": "Feature", "properties": { "Адрес": "ул. Ивана Франко, 39" }, "geometry": { "type": "Point", "coordinates": [ 6273119.916450140997767, 7981821.778535975143313 ] } },
+{ "type": "Feature", "properties": { "Адрес": "ул. Кабельщиков, 17" }, "geometry": { "type": "Point", "coordinates": [ 6266950.189857525750995, 7987787.637555858120322 ] } },
+{ "type": "Feature", "properties": { "Адрес": "ул. Карбышева, 78\/2" }, "geometry": { "type": "Point", "coordinates": [ 6265490.585384775884449, 7990320.994670554064214 ] } },
+{ "type": "Feature", "properties": { "Адрес": "ул. Корсуньская" }, "geometry": { "type": "Point", "coordinates": [ 6282021.705243250355124, 7999383.083265077322721 ] } },
+{ "type": "Feature", "properties": { "Адрес": "ул. Свиязева 2а" }, "geometry": { "type": "Point", "coordinates": [ 6255616.222730929031968, 7959776.892578736878932 ] } },
+{ "type": "Feature", "properties": { "Адрес": "ул Рязанская 17" }, "geometry": { "type": "Point", "coordinates": [ 6256247.045346627943218, 7961422.11960288695991 ] } },
+{ "type": "Feature", "properties": { "Адрес": "ул Мира 33" }, "geometry": { "type": "Point", "coordinates": [ 6256280.041468692943454, 7963289.09726370498538 ] } },
+{ "type": "Feature", "properties": { "Адрес": "ш. Космонавтов 141" }, "geometry": { "type": "Point", "coordinates": [ 6254136.8168399995193, 7963790.483814550563693 ] } },
+{ "type": "Feature", "properties": { "Адрес": "ул. Гусарова 14" }, "geometry": { "type": "Point", "coordinates": [ 6258265.659937729127705, 7959618.977607703767717 ] } },
+{ "type": "Feature", "properties": { "Адрес": "ул. Обвинская 9" }, "geometry": { "type": "Point", "coordinates": [ 6260593.473106388002634, 7961578.145953195169568 ] } },
+{ "type": "Feature", "properties": { "Адрес": "ул. Строителей 18\/1" }, "geometry": { "type": "Point", "coordinates": [ 6249861.163142757490277, 7967362.149292154237628 ] } },
+{ "type": "Feature", "properties": { "Адрес": "ул. Богдана Хмельницкого 13в" }, "geometry": { "type": "Point", "coordinates": [ 6226256.140076589770615, 7968906.015108282677829 ] } },
+{ "type": "Feature", "properties": { "Адрес": "ул. Красноводская 18" }, "geometry": { "type": "Point", "coordinates": [ 6242959.773159326985478, 7977285.102231443859637 ] } },
+{ "type": "Feature", "properties": { "Адрес": "ул. Челюскинцев 13" }, "geometry": { "type": "Point", "coordinates": [ 6259105.602165482006967, 7965553.721350622363389 ] } },
+{ "type": "Feature", "properties": { "Адрес": "ул. Уинская 31" }, "geometry": { "type": "Point", "coordinates": [ 6269444.809009304270148, 7968644.216136177070439 ] } },
+{ "type": "Feature", "properties": { "Адрес": "ул. Менжинского 13" }, "geometry": { "type": "Point", "coordinates": [ 6276157.63906420301646, 7992953.332711047492921 ] } }
+]
+}

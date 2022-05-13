@@ -1,0 +1,23 @@
+{
+"type": "FeatureCollection",
+"name": "sport_place",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "OBJECTID": 1, "Тип_п": "Уличные тренажеры" }, "geometry": { "type": "Point", "coordinates": [ 6243049.000346827320755, 7977740.307813526131213 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 2, "Тип_п": "Уличные тренажеры" }, "geometry": { "type": "Point", "coordinates": [ 6247433.936205324716866, 7975585.369273349642754 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 3, "Тип_п": "Уличные тренажеры" }, "geometry": { "type": "Point", "coordinates": [ 6249829.062019373290241, 7965299.94581260625273 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 4, "Тип_п": "Футбольно-баскетбольная площадка" }, "geometry": { "type": "Point", "coordinates": [ 6249860.811961921863258, 7965242.687364378944039 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 6, "Тип_п": "Уличные тренажеры" }, "geometry": { "type": "Point", "coordinates": [ 6253330.684697204269469, 7965005.312669553793967 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 7, "Тип_п": "Уличные тренажеры" }, "geometry": { "type": "Point", "coordinates": [ 6253944.342902391217649, 7964052.067169231362641 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 8, "Тип_п": "Уличные тренажеры" }, "geometry": { "type": "Point", "coordinates": [ 6269813.535228034481406, 7960084.629037317819893 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 9, "Тип_п": "Уличные тренажеры" }, "geometry": { "type": "Point", "coordinates": [ 6265563.110809461213648, 7979752.342487096786499 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 10, "Тип_п": "Футбольно-баскетбольная площадка" }, "geometry": { "type": "Point", "coordinates": [ 6265606.50272904522717, 7979729.545284494757652 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 11, "Тип_п": "Футбольное поле" }, "geometry": { "type": "Point", "coordinates": [ 6274570.060738189145923, 7982977.151651418767869 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 12, "Тип_п": "Уличные тренажеры" }, "geometry": { "type": "Point", "coordinates": [ 6274617.585122993215919, 7982990.165258817374706 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 13, "Тип_п": "Баскетбольная площадка, теннисный кор" }, "geometry": { "type": "Point", "coordinates": [ 6231537.815784422680736, 7969946.001125835813582 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 14, "Тип_п": "Уличные тренажеры" }, "geometry": { "type": "Point", "coordinates": [ 6231631.778914933092892, 7969817.271183398552239 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 15, "Тип_п": "Уличные тренажеры" }, "geometry": { "type": "Point", "coordinates": [ 6269761.001671141013503, 7966038.544649592600763 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 16, "Тип_п": "Футбольно-баскетбольная площадка" }, "geometry": { "type": "Point", "coordinates": [ 6258440.178238267078996, 7970618.881186202168465 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 17, "Тип_п": "Уличные тренажеры" }, "geometry": { "type": "Point", "coordinates": [ 6258224.608204174786806, 7970578.848135121166706 ] } }
+]
+}
