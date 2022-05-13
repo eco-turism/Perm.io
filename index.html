@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="./data/icon/eco_icon.png" type="image/x-icon">
+    <title>Экология и туризм Перми</title>
+    <link rel="stylesheet" href="./libs/v6.12.0-dist/ol.css">
+    <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+        <div class="grid-2">
+        <script src='./libs/v6.12.0-dist/ol.js'></script>
+        <div id='js-map' class='map'></div>
+        <div class="layer-button" id="layer-button" title="Список слоев"><img src="./data/icon/base_map.png" width="20" height="20" ></div>
+        <div class="sidebar" id='sidebar'>
+            <h2>Базовые Карты</h2>
+            <input type="radio" name='baseLayerRadioButton' value='osmStd' checked>OSM Standard<br>
+            <input type="radio" name='baseLayerRadioButton' value='osmHum'>OSM Humanitarian<br>
+            <input type="radio" name='baseLayerRadioButton' value='YandexStd'>Yandex Maps Standard<br>
+            <input type="radio" name='baseLayerRadioButton' value='YandexSAT'>Yandex Maps Satellite<br>
+            <input type="radio" name='baseLayerRadioButton' value='BingSAT'>Bing Maps Satellite<br>   
+        </div>
+        <div class="mes-but" id="mes-but" title="Измерительные инструменты"><img src='./data/icon/mes.png' width="20" height="20" ></div>
+        <div id="measure">
+          <div class = 'measuretype' id="measuretype">
+            <input type="radio" name='RButton' value="length">Длина<br>
+            <input type="radio" name='RButton' value="area">Площадь<br>
+            <input type="radio" name='RButton' value="select" checked>Сброить <br>
+          </div>
+        </div>
+        </div>
+        <div class="info-but" id="info-but" title="информация о сервисе"> <img src="data/icon/inf.png"width="20" height="20"></div>
+        <div id='info-text' class="info-text">
+          <h2 style='font-size:20px;font-weight:bold;'>ИНФОРМАЦИЯ О СЕРВИСЕ</h2>
+          <h2 style='font-size:18px;font-weight:100'>Данный сервис показывает инфрмацию об экологической составляющей города, прирордных особенностях, а также о туристических направлениях города.</h2>
+        </div>
+        <div class="tematic-but" id="tematic-but" title="Тематические слои"> <img src="./data/icon/layers.png"width="20" height="20"></div>
+        <div class="tematic-layers" id="tematic-layers">
+        <h3>Экология города</h3>
+        <img src="./data/icon/green_L.png" width="20" height="7" ><input type="checkbox" name='rasterLayerCheckBox' value='eco-roads'>Экологические тропы<br> 
+        <img src="./data/icon/info.png" width="20" height="20" ><input type="checkbox" name='rasterLayerCheckBox' value="ifno-stend">Информационные стенды<br>
+        <img src="./data/icon/blue_L.png" width="20" height="7" ><input type="checkbox" name='rasterLayerCheckBox' value='smal-river'>Малые реки<br>
+        <img src="./data/icon/border.png" width="20" height="15" ><input type="checkbox" name='rasterLayerCheckBox' value='hils-river'>Долины малых рек<br>
+        <img src="./data/icon/orange_L.png" width="20" height="7" ><input type="checkbox" name='rasterLayerCheckBox' value='kv-les'>Квартальная сеть гордских лесов<br>
+        <img src="./data/icon/multi_L.png" width="20" height="7" ><input type="checkbox" name='rasterLayerCheckBox' value='porod'>Породы деревьев<br>
+        <img src="./data/icon/buf_L.png" width="20" height="7" ><input type="checkbox" name='rasterLayerCheckBox' value='forest-buf'>Доступность лесов<br>
+        <img src="./data/icon/dirt_L.png" width="20" height="7" ><input type="checkbox" name='rasterLayerCheckBox' value='forest-eco'>Загрязнение леса<br>
+        <img src="./data/icon/duck.png" width="20" height="20" ><input type="checkbox" name='rasterLayerCheckBox' value='duck-place'>Места обитания уток<br>
+        <h3>Спорт и активных отдых</h3>
+        <img src="./data/icon/stad.png" width="20" height="20" ><input type="checkbox" name='rasterLayerCheckBox' value='Stadion'> Спортивыне стадионы<br>
+        <img src="./data/icon/purp_L.png" width="20" height="7" ><input type="checkbox" name='rasterLayerCheckBox' value='ski-roads'>Лыжные трассы<br>
+        <img src="./data/icon/Kids.png" width="20" height="20" ><input type="checkbox" name='rasterLayerCheckBox' value='kids-place'>Детские плащадки на природе<br>
+        <img src="./data/icon/sport_p.png" width="20" height="20" ><input type="checkbox" name='rasterLayerCheckBox' value='sport-place'>Спортивные плащадки на природе<br>
+        <img src="./data/icon/picnic.png" width="20" height="20" ><input type="checkbox" name='rasterLayerCheckBox' value='picnic-place'>Пикниковые места отдыха<br>
+        <img src="./data/icon/dog.png" width="20" height="20" ><input type="checkbox" name='rasterLayerCheckBox' value='dog-place'>Места выгула собак<br>
+        <img src="./data/icon/blue1_L.png" width="20" height="7" ><input type="checkbox" name='rasterLayerCheckBox' value='velo-d'>Проектирумые велодорожки<br>
+        <img src="./data/icon/ocean_L.png" width="20" height="7" ><input type="checkbox" name='rasterLayerCheckBox' value='velo-p'>Действующие велодорожки<br>
+        <h3>Турисические места</h3>
+        <img src="./data/icon/info2.png" width="20" height="20" ><input type="checkbox" name='rasterLayerCheckBox' value='point-st'>Достопримечательности города<br> 
+        <img src="./data/icon/red_L.png" width="20" height="7" ><input type="checkbox" name='rasterLayerCheckBox' value='green-line'>Зеленая линия <br>
+        <img src="./data/icon/border1.png" width="20" height="15" ><input type="checkbox" name='rasterLayerCheckBox' value='park'>Парки города<br>
+        <img src="./data/icon/border2.png" width="20" height="15" ><input type="checkbox" name='rasterLayerCheckBox' value='park-buf'>Шаговая доступность парков<br>
+        <img src="./data/icon/border3.png" width="20" height="15" ><input type="checkbox" name='rasterLayerCheckBox' value='area-p'>Районы города<br>
+
+
+        </div>
+        <div class='legend1' id='legend1'><img src='./data/icon/legend1.png'> </div>
+        <div class='legend2' id='legend2'><img src='./data/icon/legend2.png'> </div>
+        <div class='legend3' id='legend3'><img src='./data/icon/legend3.png'> </div>
+
+        <div class='overlay-container'>
+          <span class='overlay-text' id='local- Name'></span><br>
+          <span class='overlay-text' id='local- Len'></span><br>
+          <span class='overlay-text' id='local- area'></span><br>
+          <span class='overlay-text' id='local- season'></span><br>
+          <span class='overlay-text' id='local- type'></span><br>
+          <span class='overlay-text' id='local- age'></span><br>
+          <span class='overlay-text' id='local- stat'></span><br>
+          <span class='overlay-text' id='local- place'></span><br>
+          <span class='overlay-text' id='local- inf'></span><br>
+        </div>
+        <div class='overlay-container1'>
+          <span class='overlay-text' id='local- Name1'></span><br>
+          <span class='overlay-text' id='local- inf1'></span><br>
+          <span class='overlay-text' id='local- road'></span><br>
+        </div>
+        <div class='overlay-container2'>
+          <span class='overlay-text' id='local- Name2'></span><br>
+          <span class='overlay-text' id='local- Len1'></span><br>
+          <span class='overlay-text' id='local- amgle'></span><br>
+          <span class='overlay-text' id='local- max'></span><br>
+        </div>
+        <div class='overlay-container3'>
+          <span class='overlay-text' id='local- Name3'></span><br>
+          <span class='overlay-text' id='local- area1'></span><br>
+          <span class='overlay-text' id='local- inf2'></span><br>
+          <span class='overlay-text' id='local- riv'></span><br>
+        </div>
+        <div class='overlay-container4'>
+          <span class='overlay-text' id='local- Name4'></span><br>
+          <span class='overlay-text' id='local- Len2'></span><br>
+          <span class='overlay-text' id='local- inf3'></span><br>
+        </div>
+        <div class='overlay-container5'>
+          <span class='overlay-text' id='local- Name5'></span><br>
+          <span class='overlay-text' id='local- por'></span><br>
+          <span class='overlay-text' id='local- dirt'></span><br>
+          <span class='overlay-text' id='local- old'></span><br>
+          <span class='overlay-text' id='local- rest'></span><br>
+          <span class='overlay-text' id='local- l_vo'></span><br>
+        </div>
+        <div class='overlay-container6'>
+          <span class='overlay-text' id='local- Name6'></span><br>
+          <span class='overlay-text' id='local- cross'></span><br>
+          <span class='overlay-text' id='local- res'></span><br>
+          <span class='overlay-text' id='local- river'></span><br>
+          <span class='overlay-text' id='local- tur'></span><br>
+          <span class='overlay-text' id='local- vel'></span><br>
+          <span class='overlay-text' id='local- sport'></span><br>
+          <span class='overlay-text' id='local- priro'></span><br>
+          <span class='overlay-text' id='local- les'></span><br>
+        </div>
+
+
+
+        <div class = 'overlay-PP'>
+          <span class = 'overlay-text' id = 'local - PP'></span>
+        </div>
+        <div class = 'overlay-KP'>
+          <span class = 'overlay-text' id = 'local - KP'></span>
+        </div>
+        <div class = 'overlay-SP'>
+          <span class = 'overlay-text' id = 'local - SP'></span>
+        </div>
+        <div class = 'overlay-St'>
+          <span class = 'overlay-text' id = 'local - St'></span>
+        </div>
+        <div class = 'overlay-DP'>
+          <span class = 'overlay-text' id = 'local - DP'></span>
+        </div>
+        <div class = 'overlay-PD'>
+          <span class = 'overlay-text' id = 'local - PD'></span>
+        </div>
+        <div class = 'overlay-SR'>
+          <span class = 'overlay-text' id = 'local - SR'></span>
+        </div>
+        <div class = 'overlay-Pr'>
+          <span class = 'overlay-text' id = 'local - Pr'></span>
+        </div>
+        <div class = 'overlay-point'>
+          <span class = 'overlay-text' id = 'local - point'></span>
+        </div>
+
+
+        <div class="d-button" id="d-button" title="3d модель экологической тропы"><img src="./data/icon/3d.png" width="20" height="20" ></div>
+        <div id="main_title">  
+          <h2>&nbspЭКОЛОГИЯ&nbsp&nbspИ&nbsp&nbspТУРИЗМ&nbsp&nbspПЕРМИ&nbsp</h2> 
+        </div>
+        
+        
+      
+      <script src="https://cdn.maptiler.com/ol-mapbox-style/v5.0.2/olms.js"></script>
+      <script src='./main.js'></script>
+      <script src="./libs/proj4.js"></script>
+    </body>
+    </html>
